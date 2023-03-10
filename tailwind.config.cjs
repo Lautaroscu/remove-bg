@@ -1,8 +1,17 @@
 const config = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
-
+  darkMode : 'class' , 
+  
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: {
+          DEFAULT: '#1a202c',
+          dark: '#2d3748',
+        },
+        // ...
+      },
+    },
   },
 
   plugins: [],
