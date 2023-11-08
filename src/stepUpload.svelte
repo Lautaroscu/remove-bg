@@ -10,8 +10,8 @@
 
   const cloudinary = new Cloudinary({
     cloud: {
-      cloudName: "lautaro",
-    },
+      cloudName: "dzeotbd0l",
+    }, 
     url: {
       secure: true,
     },
@@ -23,9 +23,9 @@
       maxFiles: 1,
     });
     dropzone.on("sending", (file, xhr, formData) => {
-      formData.append("upload_preset", "ml_default");
+      formData.append("upload_preset", "iszxieur");
       formData.append("timestamp", Date.now() / 1000);
-      formData.append("api_key", 567834895795316);
+      formData.append("api_key", 418579654788937);
       imageStatus.set(typeStatus.UPLOADING);
     });
     dropzone.on("success", (file, response) => {
@@ -44,7 +44,7 @@
 </script>
 
 <form
-  action="https://api.cloudinary.com/v1_1/lautaro/image/upload"
+  action="https://api.cloudinary.com/v1_1/dzeotbd0l/image/upload"
   id="dropzone"
   class="shadow-2xl border-dashed border-2 border-gray-300 rounded-lg aspect-video w-full flex items-center justify-center flex-col "
 >

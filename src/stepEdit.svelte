@@ -5,7 +5,7 @@
     let tries = 0
     let intervalId:any
     $: {
-        if(proccesingImg) {
+        if(proccesingImg && tries < 50) {
             clearInterval(intervalId) 
             intervalId = setInterval(() => {
                 tries++

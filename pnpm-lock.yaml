@@ -5,6 +5,7 @@ specifiers:
   '@sveltejs/vite-plugin-svelte': ^2.0.2
   '@tsconfig/svelte': ^3.0.0
   autoprefixer: ^10.4.7
+  dropzone: 6.0.0-beta.2
   postcss: ^8.4.14
   postcss-load-config: ^4.0.1
   svelte: ^3.55.1
@@ -19,6 +20,7 @@ specifiers:
 
 dependencies:
   '@cloudinary/url-gen': 1.9.1
+  dropzone: 6.0.0-beta.2
   two-up-element: 1.0.1
 
 devDependencies:
@@ -345,6 +347,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@swc/helpers/0.2.14:
+    resolution: {integrity: sha512-wpCQMhf5p5GhNg2MmGKXzUNwxe7zRiCsmqYsamez2beP7mKPCSiu+BjZcdN95yYSzO857kr0VfQewmGpS77nqA==}
+    dev: false
 
   /@tsconfig/svelte/3.0.0:
     resolution: {integrity: sha512-pYrtLtOwku/7r1i9AMONsJMVYAtk3hzOfiGNekhtq5tYBGA7unMve8RvUclKLMT3PrihvJqUmzsRGh0RP84hKg==}
@@ -845,6 +851,13 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
+
+  /dropzone/6.0.0-beta.2:
+    resolution: {integrity: sha512-k44yLuFFhRk53M8zP71FaaNzJYIzr99SKmpbO/oZKNslDjNXQsBTdfLs+iONd0U0L94zzlFzRnFdqbLcs7h9fQ==}
+    dependencies:
+      '@swc/helpers': 0.2.14
+      just-extend: 5.1.1
+    dev: false
 
   /electron-to-chromium/1.4.323:
     resolution: {integrity: sha512-+a0hMEQxE8u1F1vOHcE0M18kQ2+4AwOXdRrU4avZ1LeR/sa9WAallYE3uES/PNcEGt/wCFcOgWcArSLx5C+WNQ==}
@@ -1737,6 +1750,10 @@ packages:
       array-includes: 3.1.6
       object.assign: 4.1.4
     dev: true
+
+  /just-extend/5.1.1:
+    resolution: {integrity: sha512-b+z6yF1d4EOyDgylzQo5IminlUmzSeqR1hs/bzjBNjuGras4FXq/6TrzjxfN0j+TmI0ltJzTNlqXUMCniciwKQ==}
+    dev: false
 
   /kleur/4.1.5:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
